@@ -14,7 +14,7 @@ namespace SumOfOdds.Tests
         [TestMethod()]
         public void CalcOddTest()
         {
-            Assert.AreEqual(9, Program.CalcOdd(6));
+            Assert.AreEqual(9, Program.SumOfOdds(6));
         }
     }
 }
